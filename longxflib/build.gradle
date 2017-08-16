@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+
+task makeJar(type: proguard.gradle.ProGuardTask, dependsOn: "build") {
+    // 未混淆的jar路径
+   // injars 'build/libs/longxflib.jar'
+    // 混淆后的jar输出路径
+   // outjars 'build/outputs/longxflib_release.jar'
+    // 混淆协议
+  //  configuration 'proguard-rules.pro'
+}
