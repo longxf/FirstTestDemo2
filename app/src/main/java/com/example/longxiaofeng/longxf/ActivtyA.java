@@ -15,7 +15,7 @@ public class ActivtyA extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("LXF",this.getClass().getSimpleName()+"onCreate");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate");
         setContentView(R.layout.act_main);
     }
 
