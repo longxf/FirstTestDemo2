@@ -56,6 +56,7 @@ public class ActivtyA extends Activity {
 
         Log.d("LXF",this.getClass().getSimpleName()+"onResume+branch11");
         Log.d("LXF",this.getClass().getSimpleName()+"onResume+branch22");
+        Log.d("LXF",this.getClass().getSimpleName()+"onResume+branch33");
     }
 
     @Override
