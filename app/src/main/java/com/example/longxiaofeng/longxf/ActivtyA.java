@@ -17,6 +17,10 @@ public class ActivtyA extends Activity {
         super.onCreate(savedInstanceState);
         Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate");
         setContentView(R.layout.act_main);
+
+
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+master");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+master");
     }
 
     @Override
