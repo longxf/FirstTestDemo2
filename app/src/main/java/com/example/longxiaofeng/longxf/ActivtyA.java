@@ -49,6 +49,9 @@ public class ActivtyA extends Activity {
     protected void onResume() {
         super.onResume();
         Log.d("LXF",this.getClass().getSimpleName()+"onResume");
+
+        Log.d("LXF",this.getClass().getSimpleName()+"onResume+branch1");
+
     }
 
     @Override
