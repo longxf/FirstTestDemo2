@@ -27,6 +27,8 @@ public class ActivtyA extends Activity {
     protected void onStart() {
         super.onStart();
         Log.d("LXF",this.getClass().getSimpleName()+"onStart");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+master");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+master");
     }
 
 
