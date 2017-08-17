@@ -34,6 +34,9 @@ public class ActivtyA extends Activity {
     protected void onPause() {
         super.onPause();
         Log.d("LXF",this.getClass().getSimpleName()+"onPause");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
     }
 
     @Override
