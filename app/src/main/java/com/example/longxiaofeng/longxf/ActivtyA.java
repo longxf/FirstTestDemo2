@@ -21,6 +21,10 @@ public class ActivtyA extends Activity {
 
         Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+master");
         Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+master");
+
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
     }
 
     @Override
@@ -36,6 +40,9 @@ public class ActivtyA extends Activity {
     protected void onPause() {
         super.onPause();
         Log.d("LXF",this.getClass().getSimpleName()+"onPause");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
+        Log.d("LXF",this.getClass().getSimpleName()+"onCre111ate+branch");
     }
 
     @Override
